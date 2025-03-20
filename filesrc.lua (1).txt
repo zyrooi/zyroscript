@@ -42,7 +42,7 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Tap Script Blox Fruit", Icon = "home" }),
 }
 
-local ToggleMirageIsland = Tabs.Farm:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
+local ToggleMirageIsland = Tabs.Main:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
 ToggleMirageIsland:OnChanged(function(Value)
     _G.FindMirageIsland = Value
 
