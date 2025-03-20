@@ -47,7 +47,7 @@ ToggleMirageIsland:OnChanged(function(Value)
     _G.FindMirageIsland = Value
 
 end)
-local ToggleMirageIsland = Tabs.Farm:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
+local ToggleMirageIsland = Tabs.Main:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
 ToggleMirageIsland:OnChanged(function(Value)
     _G.FindMirageIsland = Value
 CheckQuest()
