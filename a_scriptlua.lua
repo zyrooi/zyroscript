@@ -1,5 +1,5 @@
 repeat task.wait(5) until game:IsLoaded();
-getgenv().Image = "rbxthumb://type=Asset&id=128443208725018&w=420&h=420"; -- put a asset id in here to make it work
+getgenv().Image = "rbxthumb://type=Asset&id=75575551348369&w=420&h=420"; -- put a asset id in here to make it work
 getgenv().ToggleUI = "E" -- This where you can Toggle the Fluent ui library
 
 task.spawn(function()
