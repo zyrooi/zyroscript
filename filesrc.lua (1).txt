@@ -1,56 +1,8 @@
+local library   = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/random%202"))()
+local One = library:Window("Title")
 
-repeat task.wait(5) until game:IsLoaded();
-getgenv().Image = "rbxthumb://type=Asset&id=75575551348369&w=420&h=420"; -- put a asset id in here to make it work
-getgenv().ToggleUI = "E" -- This where you can Toggle the Fluent ui library
-
-task.spawn(function()
-    if not getgenv().LoadedMobileUI == true then getgenv().LoadedMobileUI = true
-        local OpenUI = Instance.new("ScreenGui");
-        local ImageButton = Instance.new("ImageButton");
-        local UICorner = Instance.new("UICorner");
-        OpenUI.Name = "OpenUI";
-        OpenUI.Parent = game:GetService("CoreGui");
-        OpenUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
-        ImageButton.Parent = OpenUI;
-        ImageButton.BackgroundColor3 = Color3.fromRGB(105,105,105);
-        ImageButton.BackgroundTransparency = 0.8
-        ImageButton.Position = UDim2.new(0,20,0,20);
-        ImageButton.Size = UDim2.new(0,50,0,50);
-        ImageButton.Image = getgenv().Image;
-        ImageButton.Draggable = false;
-        ImageButton.Transparency = 1;
-        UICorner.CornerRadius = UDim.new(0,10);
-        UICorner.Parent = ImageButton;
-        ImageButton.MouseButton1Click:Connect(function()
-            game:GetService("VirtualInputManager"):SendKeyEvent(true,getgenv().ToggleUI,false,game);
-        end)
-    end
-end)
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-
-local Window = Fluent:CreateWindow({
-    Title = "Kaiser Hub",
-    SubTitle = "Kiet Tong",
-    TabWidth = 160,
-    Size = UDim2.fromOffset(560, 350),
-    Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Aqua",
-    MinimizeKey = Enum.KeyCode.E -- Used when theres no MinimizeKeybind
-})
-
-local Tabs = {
-    Main = Window:AddTab({ Title = "Tap Script Blox Fruit", Icon = "home" }),
-}
-
-local ToggleMirageIsland = Tabs.Main:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
-ToggleMirageIsland:OnChanged(function(Value)
-    _G.FindMirageIsland = Value
-
-end)
-local ToggleMirageIsland = Tabs.Main:AddToggle("ToggleMirageIsland", {Title = "Auto Farm Level", Default = false })
-ToggleMirageIsland:OnChanged(function(Value)
-    _G.FindMirageIsland = Value
-CheckQuest()
+One:Toggle("Toggle", function()
+ CheckQuest()  
 end)
 
 function CheckQuest() 
