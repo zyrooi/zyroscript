@@ -3,4 +3,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrooi/zyroscript/ref
 elseif game.GameId == 1451439645 then -- King Legacy 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrooi/zyroscript/refs/heads/main/kinglegacy.lua"))()
 elseif game.GameId == 3756501373 then -- Meme Sea
+loadstrign(game:HttpGet("https://raw.githubusercontent.com/zyrooi/zyroscript/refs/heads/main/Memesea.lua"))()
 end
