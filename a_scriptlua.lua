@@ -694,6 +694,94 @@ Title = "Kind  Hub",
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/KindHub"))()
         end
     })
+Tabs.King:AddButton({
+Title = "Hyper  Hub",
+        Description = "",
+        Callback = function()
+repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+        end
+    })
+Tabs.King:AddButton({
+Title = "Arc  Hub",
+        Description = "",
+        Callback = function()
+getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+        end
+    })
+Tabs.King:AddButton({
+Title = "Zee  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Zen  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Hluk  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua")()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Winnable V6 Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+-- Link Get Key : https://bit.ly/3Dw6CiR
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Adel  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Black Trap Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Blue  Hub",
+        Description = "",
+        Callback = function()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Mukuro  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+        end
+    })
+
+Tabs.King:AddButton({
+Title = "Speed  Hub",
+        Description = "",
+        Callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+        end
+    })
+
 
 
 
