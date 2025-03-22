@@ -1,3 +1,4 @@
+elseif game.GameId == 994732206 then
 repeat task.wait(5) until game:IsLoaded();
 getgenv().Image = "rbxthumb://type=Asset&id=75575551348369&w=420&h=420"; -- put a asset id in here to make it work
 getgenv().ToggleUI = "E" -- This where you can Toggle the Fluent ui library
@@ -781,8 +782,7 @@ Title = "Speed  Hub",
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
         end
     })
-
-
+end
 
 
 
