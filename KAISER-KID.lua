@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("Script Đã Hạn Vui Lòng Tham Gia Discord Nhận Script Mới")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrooi/zyro/refs/heads/main/Tonghop.lua"))()
